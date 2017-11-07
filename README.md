@@ -1,3 +1,8 @@
+# ur_modern_driver fork
+This fork has been implemented due to kinetic breaking changes to ur_modern_driver, based on a discussion found at https://github.com/ThomasTimm/ur_modern_driver/issues/58
+
+swapped every instance of ->hardware_interface for ->type in ur_hardware_interface
+
 # ur_modern_driver
 
 A new driver for the UR3/UR5/UR10 robot arms from Universal Robots. It is designed to replace the old driver transparently, while solving some issues, improving usability as well as enabling compatibility  of ros_control. 

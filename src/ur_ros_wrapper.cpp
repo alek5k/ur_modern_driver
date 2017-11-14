@@ -349,6 +349,7 @@ private:
 			result_.error_string = "Goal start doesn't match current pose";
 			gh.setRejected(result_, result_.error_string);
 			print_error(result_.error_string);
+			print_info("invalid goal at start of trajectory");
 			return;
 		}
 
